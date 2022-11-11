@@ -146,7 +146,7 @@ ppgroup = await haikal.profilePictureUrl(anu.id, 'image')
 } catch {
 ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'}
 //=================================================//
-if (anu.action == 'add') {
+if (anu.action == 'add.') {
 var buffer = await getBuffer(ppuser)
 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `HELLO 👋 SELAMAT DATANG DI GROUP ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
@@ -174,7 +174,7 @@ sourceUrl: link,
 mediaUrl: link,}}}
 //=================================================//
 haikal.sendMessage(anu.id, buttonMessage, {quoted:fgclink})
-} else if (anu.action == 'remove') {
+} else if (anu.action == 'remove.') {
 let fgclink = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'memek', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 he = `SELAMAT TINGGAL KAWAN 👋 ${metadata.subject} @${num.split("@")[0]}\n\n${metadata.desc}`
 let link = `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`
@@ -261,7 +261,7 @@ return status}
 //=================================================//
 
 //Kalau Mau Self Lu Buat Jadi False
-haikal.public = true
+haikal.public = false
 //=================================================//
 haikal.serializeM = (m) => smsg(haikal, m, store)
 haikal.ev.on('connection.update', async (update) => {
