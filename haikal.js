@@ -1571,6 +1571,21 @@ headerType: 1
 }
 haikal.sendMessage(m.chat, buttonMessage)
 }
+break
+case 'tolol':
+if (isBan) throw sticBanLu(from)
+const buttons = [
+{buttonId: `owner`, buttonText: {displayText: OWNER 👤}, type: 1},
+{buttonId: 'donasi', buttonText: {displayText: DONASI 🌷}, type: 1},
+{buttonId: 'sewa', buttonText: {displayText: SEWA BOT 🤖}, type: 1}
+]
+const buttonMessage = {
+text: "kiansantet 6285736056578s.whatsapp.net|1|1s",
+buttons: buttons,
+headerType: 1
+}
+haikal.sendMessage(m.chat, buttonMessage)
+}
  break
 //=================================================//
 case 'kiantag': case 'kianbar':  {
@@ -4685,7 +4700,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐤𝐢𝐚𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐤𝐢𝐚𝐧𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐢𝐧𝐯𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ] 𝐏𝐜
-╠➤𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚?? ]
 ╠➤𝐡𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐡𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
