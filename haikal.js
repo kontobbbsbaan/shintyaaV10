@@ -1125,23 +1125,6 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
-case 'kian': case 'kianlokas': {
-if (isBan) throw sticBanLu(from)
-var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
-var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-"liveLocationMessage": {
-"degreesLatitude": -6.9367014,
-"degreesLongitude": 107.7228574,
-"caption": `👍🗿👍🗿👍🗿`,
-"sequenceNumber": "1657237469254001",
-"jpegThumbnail": messa.imageMessage,
-}
-}), { userJid: m.chat, quoted: m })
-haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.id })
-}
-}
-break
-//=================================================//
 case 'lokas': case 'kianlokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
@@ -1582,6 +1565,24 @@ const buttons = [
 ]
 const buttonMessage = {
 text: "© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠",
+footerText: 'Pe',
+buttons: buttons,
+headerType: 1
+}
+haikal.sendMessage(m.chat, buttonMessage)
+}
+break
+//=================================================//
+case 'hh':
+if (isBan) throw sticBanLu(from)
+ydd = `Hallo Aku kian`
+const buttons = [
+{buttonId: ``, buttonText: {displayText: tezt}, type: 1},
+{buttonId: 'babaabbabababa', buttonText: {displayText: tezt}, type: 1},
+{buttonId: 'babababbababa', buttonText: {displayText: tet}, type: 1}
+]
+const buttonMessage = {
+text: "© legigulo409@gmail.com",
 footerText: 'Pe',
 buttons: buttons,
 headerType: 1
