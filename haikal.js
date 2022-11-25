@@ -1125,6 +1125,23 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
+case 'kian': case 'kianlokas': {
+if (isBan) throw sticBanLu(from)
+var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
+var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+"liveLocationMessage": {
+"degreesLatitude": -6.9367014,
+"degreesLongitude": 107.7228574,
+"caption": `👍🗿👍🗿👍🗿`,
+"sequenceNumber": "1657237469254001",
+"jpegThumbnail": messa.imageMessage,
+}
+}), { userJid: m.chat, quoted: m })
+haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.id })
+}
+}
+break
+//=================================================//
 case 'lokas': case 'kianlokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
@@ -1566,21 +1583,6 @@ const buttons = [
 const buttonMessage = {
 text: "© 𝙕𝙚𝙣𝙪𝘼𝙞𝙯𝙖𝙠",
 footerText: 'Pe',
-buttons: buttons,
-headerType: 1
-}
-haikal.sendMessage(m.chat, buttonMessage)
-}
-break
-case 'tolol':
-if (isBan) throw sticBanLu(from)
-const buttons = [
-{buttonId: `owner`, buttonText: {displayText: OWNER 👤}, type: 1},
-{buttonId: 'donasi', buttonText: {displayText: DONASI 🌷}, type: 1},
-{buttonId: 'sewa', buttonText: {displayText: SEWA BOT 🤖}, type: 1}
-]
-const buttonMessage = {
-text: "kiansantet 6285736056578s.whatsapp.net|1|1s",
 buttons: buttons,
 headerType: 1
 }
@@ -4502,7 +4504,6 @@ caption: `
 [ 𝗜𝗻𝗶 𝗮𝗱𝗮𝗹𝗮𝗵 𝗯𝗼𝘁 𝗱𝗮𝗿𝗶 𝗶𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮 🇮🇩 ]
 
 [ 🇲🇨 Ini adalah Bot Pribadi Tekan Link Di Bawah Untuk Bergabung ]`,
-footer: haikal.user.name,
 buttons: buttons,
 headerType: 4
 }
