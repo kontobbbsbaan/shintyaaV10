@@ -6,8 +6,8 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.autorecording = false //status auto merekam ( auto record )
-global.autoketik = false //status auto mengetik (auto typing)
+global.autorecording = true //status auto merekam ( auto record )
+global.autoketik = true //status auto mengetik (auto typing)
 global.autoavailable = false //status online (online)
 global.wlcm = []
 global.ntnsfw = []
@@ -21,10 +21,10 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 //=================================================//
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
-global.youtube = 'https://youtube.com/channel/UCI7CT5uWyfMHMtbH-IV_6rg' // ubah aia
-global.ig = 'shintyaa044_' // ubah aja
-global.email = 'shintya857@gmail.com'
-global.region = 'indonesia'
+global.youtube = '-' // ubah aia
+global.ig = '-' // ubah aja
+global.email = '-'
+global.region = '-'
 //—————「 Set Nama Own & Bot 」—————//
 global.ownername = '𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹☆' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.botname = '𝗧𝗵𝗲 𝗦𝗵𝗶𝗻𝘁𝘆𝗮 𝗴𝗶𝗿𝗹☆' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
